@@ -11,7 +11,7 @@ public class Foo {
             list.add(i);
         }
 
-        for (int j = 0; j < 20000000; j++) {
+        for (int j = 0; j < 50000000; j++) {
             Iterator<Integer> iter = list.iterator();
             iter.next();
         }
